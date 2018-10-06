@@ -1,0 +1,16 @@
+.app-container {
+    margin: 25px;
+}
+
+app-compooo-card {
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}

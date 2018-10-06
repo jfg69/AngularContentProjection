@@ -1,0 +1,12 @@
+<div class="card" *ngIf="item">
+    <div class="card-header">
+        <h2>{{item.description}}</h2>
+    </div>
+    <div class="card-body">
+        <ng-content select=".item-image"></ng-content>
+        <ng-content select=".item-description"></ng-content>
+        <div class='pad'>
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  items = [{
+    description: 'Chewbacca',
+    longDescription: 'Chewbacca est un personnage de Star Wars. Légendaire guerrier Wookiee aux côtés du légendaire contrebandier Han Solo',
+    image: '../../assets/pic1.jpg',
+  }];
 }
